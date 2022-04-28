@@ -87,7 +87,7 @@ class StudentInfo extends StatelessWidget {
             const Icon(
               Icons.phone,
               size: 40,
-              color: Color.fromARGB(247, 235, 137, 10),
+              color: Color.fromARGB(246, 235, 137, 10),
             ),
             Text('  Celular: ' + phone + '\n',
                 style: const TextStyle(color: Colors.white, fontSize: 16)),

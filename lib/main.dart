@@ -47,7 +47,7 @@ class _MyAppState extends State<MyApp> {
         body: Padding(
           padding: const EdgeInsets.only(top: 10, left: 10, right: 10),
           child: ListView.builder(
-              itemCount: estudiantes == null ? 0 : estudiantes.length,
+              itemCount: estudiantes.length,
               itemBuilder: (context, index) {
                 var name = estudiantes[index]['name'];
                 var matricula = estudiantes[index]['matricula'];
@@ -55,7 +55,6 @@ class _MyAppState extends State<MyApp> {
                 var semester = estudiantes[index]['semester'];
                 var phone = estudiantes[index]['phone'];
                 var email = estudiantes[index]['email'];
-
                 return Container(
                   alignment: Alignment.center,
                   height: 90,
@@ -65,13 +64,12 @@ class _MyAppState extends State<MyApp> {
                           context,
                           MaterialPageRoute(
                               builder: (context) => StudentInfo(
-                                    name: name,
-                                    matricula: matricula,
-                                    career: career,
-                                    semester: semester,
-                                    phone: phone,
-                                    email: email,
-                                  )));
+                                  matricula: matricula,
+                                  name: name,
+                                  career: career,
+                                  semester: semester,
+                                  phone: phone,
+                                  email: email)));
                     },
                     title: Text(
                       name,
