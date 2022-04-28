@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Ramón Sandoval Pérez",
+        "matricula": "18760478",
+        "email": "ramonchampii@gmail.com",
+        "phone":"6462014556",
+        "career":"Ing. Sistemas Computacionales",
+        "semester": "8"
+    },
+    {
+        "name": "Mike Ramirez Hernan",
+        "matricula": "18760478",
+        "email": "rmike@gmail.com",
+        "phone":"6462014556",
+        "career":"Lic. Administración",
+        "semester": "8"
+    },
+    {
+        "name": "Julio Venegas",
+        "matricula": "18760478",
+        "email": "rjulio@gmail.com",
+        "phone":"6462014556",
+        "career":"Ing. Electronica",
+        "semester": "8"
+    },
+    {
+        "name": "Alfonso del Carmen",
+        "matricula": "18760478",
+        "email": "alfonso@gmail.com",
+        "phone":"6462014556",
+        "career":"Ing. Industrial",
+        "semester": "8"
+    }
+]
