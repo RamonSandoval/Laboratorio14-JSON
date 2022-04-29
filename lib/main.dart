@@ -55,6 +55,7 @@ class _MyAppState extends State<MyApp> {
                 var semester = estudiantes[index]['semester'];
                 var phone = estudiantes[index]['phone'];
                 var email = estudiantes[index]['email'];
+                var imagen = estudiantes[index]['imagen'];
                 return Container(
                   alignment: Alignment.center,
                   height: 90,
@@ -69,6 +70,7 @@ class _MyAppState extends State<MyApp> {
                                   career: career,
                                   semester: semester,
                                   phone: phone,
+                                  imagen: imagen,
                                   email: email)));
                     },
                     title: Text(
@@ -80,12 +82,8 @@ class _MyAppState extends State<MyApp> {
                             color: Color.fromARGB(255, 138, 138, 138),
                             fontSize: 12)),
                     leading: CircleAvatar(
-                        backgroundColor: Color.fromARGB(247, 235, 137, 10),
-                        child: Text(
-                          name.substring(0, 1),
-                          style: const TextStyle(
-                              color: Color.fromARGB(247, 255, 255, 255)),
-                        )),
+                      backgroundImage: NetworkImage("$imagen"),
+                    ),
                     trailing: const Icon(
                       Icons.arrow_forward_ios,
                       color: Colors.white,

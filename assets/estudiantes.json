@@ -1,42 +1,47 @@
 [
     {
-        "name": "Ramón Sandoval Pérez",
-        "matricula": "18760478",
-        "email": "ramonchampii@gmail.com",
+        "name": "Kris Lamberson",
+        "matricula": "18760460",
+        "email": "kris@gmail.com",
         "phone":"6462014556",
         "career":"Ing. Sistemas Computacionales",
-        "semester": "8"
+        "semester": "8",
+        "imagen": "https://setup.gg/wp-content/uploads/2020/05/swagg-1.jpg"
     },
     {
         "name": "Mike Ramirez Hernan",
-        "matricula": "18760478",
-        "email": "rmike@gmail.com",
-        "phone":"6462014556",
+        "matricula": "18760450",
+        "email": "rmike@hotmail.com",
+        "phone":"6462046782",
         "career":"Lic. Administración",
-        "semester": "8"
+        "semester": "8",
+        "imagen": "https://setup.gg/wp-content/uploads/2021/04/theboisantana.jpg"
     },
     {
         "name": "Julio Venegas",
-        "matricula": "18760478",
+        "matricula": "18760469",
         "email": "rjulio@gmail.com",
-        "phone":"6462014556",
+        "phone":"6461445627",
         "career":"Ing. Electronica",
-        "semester": "8"
+        "semester": "8",
+        "imagen":"https://setup.gg/wp-content/uploads/2021/05/repullze.jpg"
     },
     {
         "name": "Alfonso del Carmen",
-        "matricula": "18760478",
+        "matricula": "18760488",
         "email": "alfonso@gmail.com",
-        "phone":"6462014556",
+        "phone":"6461402934",
         "career":"Ing. Industrial",
-        "semester": "8"
+        "semester": "8",
+        "imagen":"https://i.scdn.co/image/ab6761610000e5ebd48c7c7bc8d2860b8865b43a"
     },
     {
         "name": "Maria Lupita Rosas",
         "matricula": "18760478",
         "email": "maria@gmail.com",
-        "phone":"6462014556",
+        "phone":"6465692493",
         "career":"Ing. Gestión Empresarial",
-        "semester": "8"
+        "semester": "8",
+        "imagen":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-1353100170.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*"
     }
 ]
